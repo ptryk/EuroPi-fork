@@ -1,0 +1,11 @@
+### Footprint positions - created on Sat Nov 25 16:42:11 2023 ###
+### Printed by KiCad version 7.0.9
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                  Package                                      PosX       PosY       Rot  Side
+J1        Conn_01x16_Pin       PinHeader_1x16_P2.54mm_Vertical            1.2700    -1.2700  180.0000  bottom
+J2        Conn_01x16_Pin       PinHeader_1x16_P2.54mm_Vertical           39.3700    -1.2700  180.0000  bottom
+J11       Conn_02x08_Odd_Even  Eurorack_Power_Header_16_Pin_Unlabeled    78.2320   -81.4720   90.0000  bottom
+J18       Conn_01x03_Pin       PinHeader_1x03_P2.54mm_Vertical           43.9420   -63.6920  180.0000  bottom
+J22       Conn_01x11_Pin       PinHeader_1x11_P2.54mm_Vertical           43.9420   -73.8520  180.0000  bottom
+## End
