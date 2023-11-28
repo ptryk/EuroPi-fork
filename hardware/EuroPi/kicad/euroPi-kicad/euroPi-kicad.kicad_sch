@@ -3218,6 +3218,10 @@
     (stroke (width 0) (type default))
     (uuid 29cbb0bc-f66b-4d11-80e7-5bb270e42496)
   )
+  (wire (pts (xy -3.81 226.06) (xy 3.81 226.06))
+    (stroke (width 0) (type default))
+    (uuid 2a15b4e2-9574-4083-ba31-814a50de3ab5)
+  )
   (polyline (pts (xy 104.14 139.7) (xy 398.78 139.7))
     (stroke (width 0) (type default))
     (uuid 2a4111b7-8149-4814-9344-3b8119cd75e4)
@@ -3565,6 +3569,10 @@
     (stroke (width 0) (type default))
     (uuid 5a397f61-35c4-4c18-9dcd-73a2d44cc9af)
   )
+  (wire (pts (xy -3.81 220.98) (xy 3.81 220.98))
+    (stroke (width 0) (type default))
+    (uuid 5a88f1d4-71c7-4ac9-9397-f89d052db1a9)
+  )
   (wire (pts (xy 92.71 217.17) (xy 97.79 217.17))
     (stroke (width 0) (type default))
     (uuid 5afa6983-6675-4866-95b2-c036b764625f)
@@ -3727,6 +3735,10 @@
     (uuid 77aa6db5-9b8d-4983-b88e-30fe5af25975)
   )
 
+  (wire (pts (xy -3.81 218.44) (xy 3.81 218.44))
+    (stroke (width 0) (type default))
+    (uuid 77ea3b03-3d5f-4430-80ff-2730f4f3fa1c)
+  )
   (wire (pts (xy 46.99 162.56) (xy 36.83 162.56))
     (stroke (width 0) (type default))
     (uuid 77ef8901-6325-4427-901a-4acd9074dd7b)
@@ -4071,6 +4083,11 @@
   (polyline (pts (xy 57.15 154.94) (xy 57.15 193.04))
     (stroke (width 0) (type default))
     (uuid acb0068c-c0e7-44cf-a209-296716acb6a2)
+  )
+
+  (wire (pts (xy -3.81 223.52) (xy 3.81 223.52))
+    (stroke (width 0) (type default))
+    (uuid adc2d774-db55-4170-8ba8-8867b56bbe9d)
   )
   (polyline (pts (xy 20.32 281.94) (xy 20.32 196.85))
     (stroke (width 0) (type default))
@@ -4753,13 +4770,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "CPC_SDA" (shape input) (at 64.77 223.52 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 20b2ac10-cb22-4c04-b4ae-62aba3297a09)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 64.77 212.1891 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "GP4" (shape input) (at 154.94 160.02 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 21573090-1953-4b11-9042-108ae79fe9c5)
@@ -4844,13 +4854,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "CPC_SCL" (shape input) (at 40.64 220.98 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3c6e3a25-832a-4d19-8418-c22832937186)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.64 209.7096 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "GP19" (shape input) (at 276.86 260.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3c8fc3bf-a68f-43c8-a627-e76937dd0e45)
@@ -4879,6 +4882,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "CPC_GND" (shape input) (at -3.81 218.44 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4248271c-f3c3-49fd-8cd6-44c2bdb3ed4d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at -15.4433 218.44 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "CJ5" (shape input) (at 92.71 234.95 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 42b4f0d4-94ed-4423-9f65-02a6e6445aab)
@@ -4890,6 +4900,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 42f10020-b50a-4739-a546-6b63e441c980)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 25.4386 170.18 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "CPC_SCL" (shape input) (at -3.81 223.52 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 499d6a5e-b161-4fc8-9056-0fbb89827f60)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at -15.0804 223.52 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4954,13 +4971,6 @@
     (uuid 5bed90a3-1347-4918-a9f2-460af9455c0b)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 284.8042 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CPC_GND" (shape input) (at 64.77 226.06 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 61ac48c8-b9c5-4f55-b757-75a772e5eb13)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 64.77 237.6933 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "CS1" (shape input) (at 92.71 227.33 180) (fields_autoplaced)
@@ -5061,13 +5071,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "CPC_VCC" (shape input) (at 40.64 228.6 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9a5a9a15-7f8f-4415-9582-d964d86eb435)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 40.64 239.9914 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "CS2" (shape input) (at 92.71 229.87 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 9abaf21c-8acf-4843-8873-7d8869ad81f2)
@@ -5110,6 +5113,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "CPC_SDA" (shape input) (at -3.81 226.06 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid af674d90-8e5e-49d5-8749-b1d1baf8dcd8)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at -15.1409 226.06 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "TPH_VCC" (shape input) (at 36.83 162.56 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid af6ac8e6-193c-4bd2-ac0b-7f515b538a8b)
@@ -5149,6 +5159,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b9d3da0b-f8fe-4c8a-ab76-234d9534bec5)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 57.15 251.5423 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "CPC_VCC" (shape input) (at -3.81 220.98 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ba313511-0ba8-4192-8e73-2c72744658dc)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at -15.2014 220.98 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -5314,7 +5331,7 @@
           (reference "O") (unit 3)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O5") (unit 3)
         )
@@ -5345,7 +5362,7 @@
           (reference "R37") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R37") (unit 1)
         )
@@ -5376,7 +5393,7 @@
           (reference "R31") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R31") (unit 1)
         )
@@ -5407,7 +5424,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R3") (unit 1)
         )
@@ -5438,7 +5455,7 @@
           (reference "C11") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C11") (unit 1)
         )
@@ -5468,7 +5485,7 @@
           (reference "Reference?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "Reference1") (unit 1)
         )
@@ -5498,7 +5515,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0123") (unit 1)
         )
@@ -5541,7 +5558,7 @@
           (reference "O?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O3") (unit 1)
         )
@@ -5572,7 +5589,7 @@
           (reference "R35") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R35") (unit 1)
         )
@@ -5603,7 +5620,7 @@
           (reference "R29") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R29") (unit 1)
         )
@@ -5634,7 +5651,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R1") (unit 1)
         )
@@ -5665,7 +5682,7 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C9") (unit 1)
         )
@@ -5708,7 +5725,7 @@
           (reference "O?") (unit 2)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O3") (unit 2)
         )
@@ -5739,7 +5756,7 @@
           (reference "R36") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R36") (unit 1)
         )
@@ -5770,7 +5787,7 @@
           (reference "R30") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R30") (unit 1)
         )
@@ -5801,7 +5818,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R2") (unit 1)
         )
@@ -5832,7 +5849,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C10") (unit 1)
         )
@@ -5862,7 +5879,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0119") (unit 1)
         )
@@ -5893,7 +5910,7 @@
           (reference "C16") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C16") (unit 1)
         )
@@ -5924,7 +5941,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C3") (unit 1)
         )
@@ -5955,7 +5972,7 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C4") (unit 1)
         )
@@ -5986,7 +6003,7 @@
           (reference "C5") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C5") (unit 1)
         )
@@ -6017,7 +6034,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C6") (unit 1)
         )
@@ -6047,7 +6064,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0105") (unit 1)
         )
@@ -6090,7 +6107,7 @@
           (reference "O?") (unit 4)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O5") (unit 4)
         )
@@ -6121,7 +6138,7 @@
           (reference "R40") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R40") (unit 1)
         )
@@ -6152,7 +6169,7 @@
           (reference "R34") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R34") (unit 1)
         )
@@ -6183,7 +6200,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R6") (unit 1)
         )
@@ -6214,7 +6231,7 @@
           (reference "C14") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C14") (unit 1)
         )
@@ -6246,7 +6263,7 @@
           (reference "J6") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J6") (unit 1)
         )
@@ -6289,7 +6306,7 @@
           (reference "O?") (unit 4)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O3") (unit 4)
         )
@@ -6320,7 +6337,7 @@
           (reference "R38") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R38") (unit 1)
         )
@@ -6351,7 +6368,7 @@
           (reference "R32") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R32") (unit 1)
         )
@@ -6382,7 +6399,7 @@
           (reference "R4") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R4") (unit 1)
         )
@@ -6413,7 +6430,7 @@
           (reference "C12") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C12") (unit 1)
         )
@@ -6456,7 +6473,7 @@
           (reference "O?") (unit 3)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O3") (unit 3)
         )
@@ -6487,7 +6504,7 @@
           (reference "R39") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R39") (unit 1)
         )
@@ -6518,7 +6535,7 @@
           (reference "R33") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R33") (unit 1)
         )
@@ -6549,7 +6566,7 @@
           (reference "R5") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R5") (unit 1)
         )
@@ -6580,7 +6597,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C13") (unit 1)
         )
@@ -6611,7 +6628,7 @@
           (reference "LED1") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "LED1") (unit 1)
         )
@@ -6642,7 +6659,7 @@
           (reference "R13") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R13") (unit 1)
         )
@@ -6673,7 +6690,7 @@
           (reference "LED2") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "LED2") (unit 1)
         )
@@ -6704,7 +6721,7 @@
           (reference "R14") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R14") (unit 1)
         )
@@ -6735,7 +6752,7 @@
           (reference "LED3") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "LED3") (unit 1)
         )
@@ -6766,7 +6783,7 @@
           (reference "R15") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R15") (unit 1)
         )
@@ -6797,7 +6814,7 @@
           (reference "LED4") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "LED4") (unit 1)
         )
@@ -6828,7 +6845,7 @@
           (reference "R16") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R16") (unit 1)
         )
@@ -6859,7 +6876,7 @@
           (reference "LED5") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "LED5") (unit 1)
         )
@@ -6890,7 +6907,7 @@
           (reference "R17") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R17") (unit 1)
         )
@@ -6921,7 +6938,7 @@
           (reference "LED6") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "LED6") (unit 1)
         )
@@ -6952,7 +6969,7 @@
           (reference "R18") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R18") (unit 1)
         )
@@ -7021,7 +7038,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "U2") (unit 1)
         )
@@ -7061,7 +7078,7 @@
           (reference "D2") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "D2") (unit 1)
         )
@@ -7092,7 +7109,7 @@
           (reference "R12") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R12") (unit 1)
         )
@@ -7124,7 +7141,7 @@
           (reference "J7") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J7") (unit 1)
         )
@@ -7155,7 +7172,7 @@
           (reference "R27") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R27") (unit 1)
         )
@@ -7187,7 +7204,7 @@
           (reference "J3") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J3") (unit 1)
         )
@@ -7218,7 +7235,7 @@
           (reference "R9") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R9") (unit 1)
         )
@@ -7250,7 +7267,7 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J2") (unit 1)
         )
@@ -7281,7 +7298,7 @@
           (reference "R8") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R8") (unit 1)
         )
@@ -7313,7 +7330,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J1") (unit 1)
         )
@@ -7344,7 +7361,7 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R7") (unit 1)
         )
@@ -7376,7 +7393,7 @@
           (reference "J4") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J4") (unit 1)
         )
@@ -7407,7 +7424,7 @@
           (reference "R10") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R10") (unit 1)
         )
@@ -7439,7 +7456,7 @@
           (reference "J5") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J5") (unit 1)
         )
@@ -7470,7 +7487,7 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R11") (unit 1)
         )
@@ -7500,7 +7517,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0122") (unit 1)
         )
@@ -7540,7 +7557,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "D1") (unit 1)
         )
@@ -7572,7 +7589,7 @@
           (reference "Q1") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "Q1") (unit 1)
         )
@@ -7603,7 +7620,7 @@
           (reference "R26") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R26") (unit 1)
         )
@@ -7635,7 +7652,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "U1") (unit 1)
         )
@@ -7665,7 +7682,7 @@
           (reference "Reference?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "Reference2") (unit 1)
         )
@@ -7696,7 +7713,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C2") (unit 1)
         )
@@ -7736,7 +7753,7 @@
           (reference "J?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J9") (unit 1)
         )
@@ -7766,7 +7783,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0124") (unit 1)
         )
@@ -7798,7 +7815,7 @@
           (reference "J8") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J8") (unit 1)
         )
@@ -7841,7 +7858,7 @@
           (reference "O?") (unit 2)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O5") (unit 2)
         )
@@ -7871,7 +7888,7 @@
           (reference "Reference?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "Reference5") (unit 1)
         )
@@ -7902,7 +7919,7 @@
           (reference "R28") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R28") (unit 1)
         )
@@ -7932,7 +7949,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0118") (unit 1)
         )
@@ -7963,7 +7980,7 @@
           (reference "R21") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R21") (unit 1)
         )
@@ -7993,7 +8010,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0108") (unit 1)
         )
@@ -8024,7 +8041,7 @@
           (reference "C15") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C15") (unit 1)
         )
@@ -8064,7 +8081,7 @@
           (reference "D3") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "D3") (unit 1)
         )
@@ -8104,7 +8121,7 @@
           (reference "D4") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "D4") (unit 1)
         )
@@ -8141,7 +8158,7 @@
           (reference "O?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O1") (unit 1)
         )
@@ -8172,7 +8189,7 @@
           (reference "R22") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R22") (unit 1)
         )
@@ -8202,7 +8219,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0103") (unit 1)
         )
@@ -8232,7 +8249,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0101") (unit 1)
         )
@@ -8263,7 +8280,7 @@
           (reference "R23") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R23") (unit 1)
         )
@@ -8293,7 +8310,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0102") (unit 1)
         )
@@ -8323,7 +8340,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0104") (unit 1)
         )
@@ -8353,7 +8370,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0121") (unit 1)
         )
@@ -8383,7 +8400,7 @@
           (reference "Reference?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "Reference9") (unit 1)
         )
@@ -8413,7 +8430,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0120") (unit 1)
         )
@@ -8443,7 +8460,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0115") (unit 1)
         )
@@ -8473,7 +8490,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0116") (unit 1)
         )
@@ -8503,7 +8520,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0112") (unit 1)
         )
@@ -8533,7 +8550,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0113") (unit 1)
         )
@@ -8563,7 +8580,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0114") (unit 1)
         )
@@ -8593,7 +8610,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0117") (unit 1)
         )
@@ -8636,7 +8653,7 @@
           (reference "O?") (unit 5)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O3") (unit 5)
         )
@@ -8666,7 +8683,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0107") (unit 1)
         )
@@ -8696,7 +8713,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0111") (unit 1)
         )
@@ -8726,7 +8743,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0110") (unit 1)
         )
@@ -8763,7 +8780,7 @@
           (reference "O?") (unit 3)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O1") (unit 3)
         )
@@ -8793,7 +8810,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0109") (unit 1)
         )
@@ -8824,7 +8841,7 @@
           (reference "SW1") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "SW1") (unit 1)
         )
@@ -8855,7 +8872,7 @@
           (reference "R25") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R25") (unit 1)
         )
@@ -8886,7 +8903,7 @@
           (reference "SW2") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "SW2") (unit 1)
         )
@@ -8917,7 +8934,7 @@
           (reference "R24") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R24") (unit 1)
         )
@@ -8948,7 +8965,7 @@
           (reference "R20") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R20") (unit 1)
         )
@@ -8979,7 +8996,7 @@
           (reference "C8") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C8") (unit 1)
         )
@@ -9009,7 +9026,7 @@
           (reference "Reference?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "Reference12") (unit 1)
         )
@@ -9039,7 +9056,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR0106") (unit 1)
         )
@@ -9082,7 +9099,7 @@
           (reference "O?") (unit 5)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O5") (unit 5)
         )
@@ -9113,7 +9130,7 @@
           (reference "R19") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "R19") (unit 1)
         )
@@ -9144,7 +9161,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C7") (unit 1)
         )
@@ -9176,7 +9193,7 @@
           (reference "VR1") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "VR1") (unit 1)
         )
@@ -9208,7 +9225,7 @@
           (reference "VR2") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "VR2") (unit 1)
         )
@@ -9233,7 +9250,7 @@
     )
     (pin "1" (uuid afaf0dfd-9b9b-4ea8-bbb8-08743d2d416f))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR010") (unit 1)
         )
@@ -9261,7 +9278,7 @@
     (pin "3" (uuid 1abf8d98-8e1d-4c34-b4dd-d4a839dd0196))
     (pin "4" (uuid 165effb7-7639-4dd9-a6bb-647b74ca0aa4))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J12") (unit 1)
         )
@@ -9298,7 +9315,7 @@
     (pin "10" (uuid 44ccb1bd-857e-4372-890d-6285930a25fb))
     (pin "4" (uuid 76780981-60b0-49b1-b2a8-c41a5b02b0d4))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J17") (unit 1)
         )
@@ -9323,7 +9340,7 @@
     )
     (pin "1" (uuid a64f24d8-17d2-4749-a19c-14c3caf051e4))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR08") (unit 1)
         )
@@ -9360,7 +9377,7 @@
           (reference "O1") (unit 2)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "O1") (unit 2)
         )
@@ -9385,7 +9402,7 @@
     )
     (pin "1" (uuid e9821f5e-c23a-4b3f-9197-4f4c2a645e07))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR017") (unit 1)
         )
@@ -9410,7 +9427,7 @@
     )
     (pin "1" (uuid cf710994-8245-4e85-94e1-1cb29a2da2fa))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR020") (unit 1)
         )
@@ -9440,7 +9457,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR04") (unit 1)
         )
@@ -9477,7 +9494,7 @@
     (pin "10" (uuid 62c271f4-5eb9-4ebf-8fcc-3b8cb13dd8ed))
     (pin "7" (uuid caf167b2-4728-445b-990d-2eca2822e7b8))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J11") (unit 1)
         )
@@ -9505,7 +9522,7 @@
     (pin "1" (uuid 7000215c-5a3c-4f00-a71b-9e34bdcc0071))
     (pin "4" (uuid dffba24d-964b-4aeb-9824-05fa7778fcd8))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J19") (unit 1)
         )
@@ -9535,7 +9552,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR01") (unit 1)
         )
@@ -9560,7 +9577,7 @@
     )
     (pin "1" (uuid c1d36c82-257f-4ca3-b924-9d81f7a9db8a))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR012") (unit 1)
         )
@@ -9587,7 +9604,7 @@
     (pin "3" (uuid 62f8488a-410c-441b-9abd-cf25ed24ffc7))
     (pin "2" (uuid 0255b77d-5d23-40aa-9b6e-07eb519d392c))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J14") (unit 1)
         )
@@ -9619,7 +9636,7 @@
     (pin "8" (uuid 563a2116-6e54-4e56-8155-82f913c29945))
     (pin "3" (uuid 5301d102-c81a-44da-a99e-1d4f413f94e7))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J16") (unit 1)
         )
@@ -9644,7 +9661,7 @@
     )
     (pin "1" (uuid 999d366e-523e-4abc-afec-74efd4ea92fd))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR011") (unit 1)
         )
@@ -9672,7 +9689,7 @@
     (pin "1" (uuid ceabceff-7b12-4a6c-a580-73ff0c825889))
     (pin "3" (uuid 0465fb0d-09ef-494e-a108-ff550a8a8295))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J18") (unit 1)
         )
@@ -9697,7 +9714,7 @@
     )
     (pin "1" (uuid dc0ca151-6ffb-48b4-97d4-c58f76d70ea6))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR03") (unit 1)
         )
@@ -9727,7 +9744,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR02") (unit 1)
         )
@@ -9758,7 +9775,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "C1") (unit 1)
         )
@@ -9783,7 +9800,7 @@
     )
     (pin "1" (uuid 76a0a045-154c-44b2-a9f3-bab403be106c))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR018") (unit 1)
         )
@@ -9808,7 +9825,7 @@
     )
     (pin "1" (uuid bf754fe7-47d2-4a70-a315-36d0bc4a8089))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR019") (unit 1)
         )
@@ -9838,7 +9855,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR05") (unit 1)
         )
@@ -9868,7 +9885,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR06") (unit 1)
         )
@@ -9893,7 +9910,7 @@
     )
     (pin "1" (uuid c9113861-9822-4c69-8fcc-f3096749ed24))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR09") (unit 1)
         )
@@ -9918,7 +9935,7 @@
     )
     (pin "1" (uuid 68f58ecb-7601-44b3-b195-b1febf682d61))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR013") (unit 1)
         )
@@ -9959,9 +9976,37 @@
     (pin "4" (uuid 91abe9ca-63b7-4f1a-910d-562c76f863ff))
     (pin "MP" (uuid 6df97c02-071c-446f-9146-81cbf940d6f9))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x04_Pin") (at -1.27 220.98 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d0e7ffc2-4372-4698-b36f-25f985588dd7)
+    (property "Reference" "J15" (at -0.635 213.36 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x04_Pin" (at -0.635 215.9 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (at -1.27 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at -1.27 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "4" (uuid ebc61d3c-37f1-4b5a-80a3-046984cdc53f))
+    (pin "2" (uuid 8f56fc89-4633-46b9-8b06-9924c6a30c1f))
+    (pin "1" (uuid a327bd36-30bf-43ba-b7e3-0b93c19303e9))
+    (pin "3" (uuid 2c522f47-7723-460f-9aa3-453e1be64e32))
+    (instances
+      (project "euroPi-kicad"
+        (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -9984,7 +10029,7 @@
     )
     (pin "1" (uuid 48b463e6-94a3-4dc6-8759-345a167711be))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR07") (unit 1)
         )
@@ -10009,7 +10054,7 @@
     )
     (pin "1" (uuid 2457e08c-5b39-4348-b6c1-6c1d63b7c180))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR015") (unit 1)
         )
@@ -10034,7 +10079,7 @@
     )
     (pin "1" (uuid 406afe55-a4a5-4fe2-8b3e-6f2adbe7efdb))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR016") (unit 1)
         )
@@ -10064,7 +10109,7 @@
     (pin "1" (uuid 0003afcc-5a5f-419b-9b39-7c5a5c47ba7f))
     (pin "6" (uuid 1f0cef2c-0bb0-49e5-9f87-c3638b3a674e))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "J13") (unit 1)
         )
@@ -10089,7 +10134,7 @@
     )
     (pin "1" (uuid ea15d6e9-28d7-4a07-879c-39e375e32b7d))
     (instances
-      (project "euroPI-kicad"
+      (project "euroPi-kicad"
         (path "/9a6c674c-4599-47b3-b351-aade0df710aa"
           (reference "#PWR014") (unit 1)
         )
