@@ -1,4 +1,4 @@
-22499264191343919
+22500965440315698
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62496,6 +62496,13 @@ Yellow 5381 Series LED
 2
 2
 Library
+IDC-Header_euroRack-2x08_and_2x05_P2.54mm_Vertical
+Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x08 2.54mm double row
+0
+16
+16
+Library
 LCD_OLED_0.91in_128x32px_I2C
 Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated  drawing from https://www.sinoning.com/wp-content/uploads/2020/08/78947-1ixyt6.jpg
 Through hole socket strip THT 1x04 2.54mm single row
@@ -62518,7 +62525,7 @@ Through hole pin header THT 2x04 2.54mm double row
 3
 Library
 PCB-eurorack-front-128.5x40.3
-
+based on https://www.midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html
 
 0
 0
