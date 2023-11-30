@@ -1,0 +1,13 @@
+### Footprint positions - created on Thu Nov 30 18:18:20 2023 ###
+### Printed by KiCad version 7.0.9
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                     Package                                                                  PosX       PosY       Rot  Side
+J10       Eurorack_Power_2x8_16p  IDC-Header_euroRack-2x08_and_2x05_P2.54mm_Vertical                   167.0050   -49.6570    0.0000  bottom
+J13       USB_B_Micro             USBmicroB_panelMount                                                 142.2455  -141.9860  180.0000  bottom
+J15       Conn_01x04_Pin          PinSocket_1x04_P2.54mm_Vertical                                      199.2630   -49.9110    0.0000  bottom
+J17       Conn_01x13_Pin          PinSocket_1x13_P2.54mm_Vertical                                       83.0580   -60.0800  180.0000  bottom
+J19       Conn_01x04_Socket       PinSocket_1x04_P2.54mm_Vertical                                      114.2115   -48.1420    0.0000  bottom
+J21       Conn_01x03_Pin          PinSocket_1x03_P2.54mm_Vertical                                      105.6640  -150.6640   90.0000  bottom
+U2        PICO_RP2040             RaspberryPi_Pico_Common_THT-minimal_courtyard_assumed_mounted_high   191.2290   -81.7880  180.0000  bottom
+## End
