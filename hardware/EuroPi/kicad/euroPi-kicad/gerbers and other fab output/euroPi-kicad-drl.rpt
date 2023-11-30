@@ -1,5 +1,5 @@
 Drill report for euroPi-kicad.kicad_pcb
-Created on 2023-11-28 21:36:34
+Created on 2023-11-30 22:47:00
 
 Copper Layer Stackup:
     =============================================================
@@ -10,18 +10,19 @@ Copper Layer Stackup:
 Drill file 'euroPi-kicad-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,500mm  0,0197"  (27 holes)
-    T2  0,750mm  0,0295"  (3 holes)
-    T3  0,800mm  0,0315"  (148 holes)
-    T4  0,900mm  0,0354"  (20 holes)
-    T5  1,000mm  0,0394"  (115 holes)
-    T6  1,100mm  0,0433"  (3 holes)
-    T7  1,220mm  0,0480"  (8 holes)
-    T8  1,420mm  0,0559"  (8 holes)
-    T9  1,430mm  0,0563"  (8 holes)
-    T10  1,500mm  0,0591"  (4 holes)
+    T1  0,400mm  0,0157"  (7 holes)
+    T2  0,500mm  0,0197"  (27 holes)
+    T3  0,750mm  0,0295"  (3 holes)
+    T4  0,800mm  0,0315"  (148 holes)
+    T5  0,900mm  0,0354"  (20 holes)
+    T6  1,000mm  0,0394"  (115 holes)
+    T7  1,100mm  0,0433"  (3 holes)
+    T8  1,220mm  0,0480"  (8 holes)
+    T9  1,420mm  0,0559"  (8 holes)
+    T10  1,430mm  0,0563"  (8 holes)
+    T11  1,500mm  0,0591"  (4 holes)
 
-    Total plated holes count 344
+    Total plated holes count 351
 
 
 Drill file 'euroPi-kicad-NPTH.drl' contains
