@@ -1,0 +1,11 @@
+Plotted to 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-F_Cu.gbr'.
+Plotted to 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-B_Cu.gbr'.
+Plotted to 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-F_Paste.gbr'.
+Plotted to 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-B_Paste.gbr'.
+Plotted to 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-F_Silkscreen.gbr'.
+Plotted to 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-B_Silkscreen.gbr'.
+Plotted to 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-F_Mask.gbr'.
+Plotted to 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-B_Mask.gbr'.
+Plotted to 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\code\EuroPi-fork\hardware\EuroPi\kicad\euroPI-kicad_incl_555_clock\gerbers and other fab output\euroPI-kicad_incl_555_clock-job.gbrjob'.
+Info: Done.
