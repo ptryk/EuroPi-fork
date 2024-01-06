@@ -10046,7 +10046,7 @@
     (property "Reference" "Reference?" (at -95.25 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+12V" (at -93.0148 85.4202 0)
+    (property "Value" "+12V 555" (at -93.0148 85.4202 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at -95.25 86.36 0)

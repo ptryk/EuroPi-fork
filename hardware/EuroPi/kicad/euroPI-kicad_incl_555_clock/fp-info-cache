@@ -1,4 +1,4 @@
-23366962109041541
+23375479129468458
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62496,6 +62496,13 @@ Yellow 5381 Series LED
 2
 2
 Library
+30mm_arcade_button_with_LEDs_with_1kohm
+
+
+0
+6
+4
+Library
 DIP-14_W7.62mm_Socket_gap_in_the_middle
 14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
@@ -62531,7 +62538,21 @@ Through hole pin header THT 2x04 2.54mm double row
 3
 3
 Library
-PCB-eurorack-front-128.5x40.3
+PCB-eurorack-front-128.5x20.0-HP4
+based on https://www.midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html
+
+0
+0
+0
+Library
+PCB-eurorack-front-128.5x30.0-HP6
+based on https://www.midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html
+
+0
+0
+0
+Library
+PCB-eurorack-front-128.5x40.3-HP8
 based on https://www.midisoft.de/EuroRackDimensions/EuroRack_Dimensions.html
 
 0
@@ -62579,6 +62600,20 @@ mouse-bite-2mm-slot
 0
 0
 0
+Library
+protoPCB_45x70mm_16x26pins
+Through hole straight PCB, 16x26, 2.54mm pitch
+Through hole PCB THT 16x26 2.54mm
+0
+416
+416
+Library
+protoPCB_45x70mm_16x26pins_2.54pitch
+Through hole straight PCB, 16x26, 2.54mm pitch
+Through hole PCB THT 16x26 2.54mm
+0
+416
+416
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
