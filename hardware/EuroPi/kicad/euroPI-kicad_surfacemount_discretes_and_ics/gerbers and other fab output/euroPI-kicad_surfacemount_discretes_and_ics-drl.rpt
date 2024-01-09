@@ -1,5 +1,5 @@
 Drill report for euroPI-kicad_surfacemount_discretes_and_ics.kicad_pcb
-Created on 2024-01-05 19:18:50
+Created on 2024-01-09 21:05:53
 
 Copper Layer Stackup:
     =============================================================
@@ -10,18 +10,18 @@ Copper Layer Stackup:
 Drill file 'euroPI-kicad_surfacemount_discretes_and_ics-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,400mm  0,0157"  (54 holes)
+    T1  0,400mm  0,0157"  (80 holes)
     T2  0,500mm  0,0197"  (5 holes)
     T3  0,800mm  0,0315"  (3 holes)
     T4  0,900mm  0,0354"  (14 holes)
-    T5  1,000mm  0,0394"  (121 holes)
+    T5  1,000mm  0,0394"  (313 holes)
     T6  1,100mm  0,0433"  (3 holes)
     T7  1,220mm  0,0480"  (9 holes)
     T8  1,420mm  0,0559"  (9 holes)
     T9  1,430mm  0,0563"  (9 holes)
     T10  1,500mm  0,0591"  (4 holes)
 
-    Total plated holes count 231
+    Total plated holes count 449
 
 
 Drill file 'euroPI-kicad_surfacemount_discretes_and_ics-NPTH.drl' contains
